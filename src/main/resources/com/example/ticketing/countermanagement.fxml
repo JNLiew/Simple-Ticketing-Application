@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ticketing.counter.counter_controller">
+   <children>
+      <Pane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@style.css">
+      
+            <children>
+               <HBox layoutX="18.0" layoutY="114.0" prefHeight="260.0" prefWidth="564.0">
+                  <children>
+                     <VBox alignment="TOP_CENTER" prefHeight="260.0" prefWidth="142.0" styleClass="display">
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="5.0" right="5.0" />
+                        </padding>
+                        <HBox.margin>
+                           <Insets left="5.0" right="5.0" />
+                        </HBox.margin>
+                        <children>
+                           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Counter 1" textAlignment="CENTER">
+                              <font>
+                                 <Font size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Text>
+                           <Button fx:id="counter1_offline" mnemonicParsing="false" onAction="#counter1_offline_btn" prefHeight="40.0" prefWidth="100.0" text="Go Online" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter1_compcurr" mnemonicParsing="false" onAction="#counter1_compcurr_btn" prefHeight="40.0" prefWidth="100.0" styleClass="button_counter" text="Comp. Curr." textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter1_callnext" mnemonicParsing="false" onAction="#counter1_callnext_btn" prefHeight="40.0" prefWidth="100.0" text="Call Next" textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                        </children>
+                     </VBox>
+                     <VBox alignment="TOP_CENTER" prefHeight="260.0" prefWidth="142.0" styleClass="display">
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="5.0" right="5.0" />
+                        </padding>
+                        <children>
+                           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Counter 2" textAlignment="CENTER">
+                              <font>
+                                 <Font size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Text>
+                           <Button fx:id="counter2_offline" mnemonicParsing="false" onAction="#counter2_offline_btn" prefHeight="40.0" prefWidth="100.0" text="Go Online" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter2_compcurr" mnemonicParsing="false" onAction="#counter2_compcurr_btn" prefHeight="40.0" prefWidth="100.0" text="Comp. Curr." textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter2_callnext" mnemonicParsing="false" onAction="#counter2_callnext_btn" prefHeight="40.0" prefWidth="100.0" text="Call Next" textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                        </children>
+                        <HBox.margin>
+                           <Insets left="5.0" right="5.0" />
+                        </HBox.margin>
+                     </VBox>
+                     <VBox alignment="TOP_CENTER" prefHeight="260.0" prefWidth="142.0" styleClass="display">
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="5.0" right="5.0" />
+                        </padding>
+                        <children>
+                           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Counter 3" textAlignment="CENTER">
+                              <font>
+                                 <Font size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Text>
+                           <Button fx:id="counter3_offline" mnemonicParsing="false" onAction="#counter3_offline_btn" prefHeight="40.0" prefWidth="100.0" text="Go Online" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter3_compcurr" mnemonicParsing="false" onAction="#counter3_compcurr_btn" prefHeight="40.0" prefWidth="100.0" text="Comp. Curr." textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter3_callnext" mnemonicParsing="false" onAction="#counter3_callnext_btn" prefHeight="40.0" prefWidth="100.0" text="Call Next" textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                        </children>
+                        <HBox.margin>
+                           <Insets left="5.0" right="5.0" />
+                        </HBox.margin>
+                     </VBox>
+                     <VBox alignment="TOP_CENTER" prefHeight="260.0" prefWidth="142.0" styleClass="display">
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="5.0" right="5.0" />
+                        </padding>
+                        <children>
+                           <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Counter 4" textAlignment="CENTER">
+                              <font>
+                                 <Font size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Text>
+                           <Button fx:id="counter4_offline" mnemonicParsing="false" onAction="#counter4_offline_btn" prefHeight="40.0" prefWidth="100.0" text="Go Online" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter4_compcurr" mnemonicParsing="false" onAction="#counter4_compcurr_btn" prefHeight="40.0" prefWidth="100.0" text="Comp. Curr." textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                           <Button fx:id="counter4_callnext" mnemonicParsing="false" onAction="#counter4_callnext_btn" prefHeight="40.0" prefWidth="100.0" text="Call Next" textAlignment="CENTER" visible="false">
+                              <VBox.margin>
+                                 <Insets bottom="10.0" top="10.0" />
+                              </VBox.margin>
+                           </Button>
+                        </children>
+                        <HBox.margin>
+                           <Insets left="5.0" right="5.0" />
+                        </HBox.margin>
+                     </VBox>
+                  </children>
+               </HBox>
+               <Pane layoutX="128.0" layoutY="14.0" prefHeight="82.0" prefWidth="344.0">
+                  <children>
+                     <Text layoutX="38.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Counter Management" textAlignment="CENTER" wrappingWidth="268.16595458984375">
+                        <font>
+                           <Font size="25.0" />
+                        </font>
+                     </Text>
+                  </children>
+               </Pane>
+            </children>
+      </Pane>
+   </children>
+</AnchorPane>
